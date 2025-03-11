@@ -1,0 +1,22 @@
+[
+    {
+        "prompt": "Generate an ERC-20 token contract with mint and burn.",
+        "output": "pragma solidity ^0.8.0;\n\ncontract MyToken {\n    function mint() public {}\n    function burn() public {}\n}"
+    },
+    {
+        "prompt": "Generate a simple Solidity contract for storing a number.",
+        "output": "pragma solidity ^0.8.0;\n\ncontract StoreNumber {\n    uint256 public storedNumber;\n    function setNumber(uint256 _num) public {\n        storedNumber = _num;\n    }\n}"
+    },
+    {
+        "prompt": "Create a Solidity contract with only an owner who can transfer ownership.",
+        "output": "pragma solidity ^0.8.0;\n\ncontract Ownable {\n    address public owner;\n    constructor() { owner = msg.sender; }\n    function transferOwnership(address newOwner) public {\n        require(msg.sender == owner);\n        owner = newOwner;\n    }\n}"
+    },
+    {
+        "prompt": "Create a Solidity contract for a voting system.",
+        "output": "pragma solidity ^0.8.0;\n\ncontract Voting {\n    mapping(address => bool) public votes;\n    function vote() public {\n        require(!votes[msg.sender]);\n        votes[msg.sender] = true;\n    }\n}"
+    },
+    {
+        "prompt": "Generate a Solidity contract that allows users to send and receive ether.",
+        "output": "pragma solidity ^0.8.0;\n\ncontract Wallet {\n    function deposit() public payable {}\n    function withdraw(uint256 amount) public {\n        payable(msg.sender).transfer(amount);\n    }\n}"
+    }
+]
