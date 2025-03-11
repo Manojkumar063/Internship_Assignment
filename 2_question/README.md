@@ -1,3 +1,5 @@
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/9ae79cc0-1825-4a54-962d-177c428d0a30" />
+
 # AI-Powered Solidity Contract Generator  
 
 This project is a **Streamlit-based AI contract generator** that generates Solidity smart contracts based on user-provided descriptions.
