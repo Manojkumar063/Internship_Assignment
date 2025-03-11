@@ -1,9 +1,3 @@
-## Screenshots
-1️⃣ Fraud Alert
-![Screenshot 2025-03-11 210056](https://github.com/user-attachments/assets/e060d87b-5644-4a15-b922-d6d78ba7f898)
-2️⃣ Streamlit UI
-![Screenshot 2025-03-11 205901](https://github.com/user-attachments/assets/3911392a-d76e-4c78-a6e0-94be32ca7b9a)
-
 ## Blockchain Fraud Detection System
 This project is a fraud detection system for blockchain transactions. It uses a Random Forest model trained on synthetic transaction data to classify whether a transaction is fraudulent or legitimate. The system includes:
 
@@ -26,6 +20,12 @@ pip install -r requirements.txt
 python 1.py
 4️⃣ Run Streamlit App
 python -m streamlit run app.py
+## Screenshots
+1️⃣ Fraud Alert
+![Screenshot 2025-03-11 210056](https://github.com/user-attachments/assets/e060d87b-5644-4a15-b922-d6d78ba7f898)
+2️⃣ Streamlit UI
+![Screenshot 2025-03-11 205901](https://github.com/user-attachments/assets/3911392a-d76e-4c78-a6e0-94be32ca7b9a)
+
 ## Usage
 Enter transaction details in the Streamlit UI.
 Click "Detect Fraud" to classify the transaction.
