@@ -1,4 +1,9 @@
-<img width="958" alt="image" src="https://github.com/user-attachments/assets/9ae79cc0-1825-4a54-962d-177c428d0a30" />
+## 📷 Screenshots  
+### **User Input Screen**
+<img src="https://github.com/user-attachments/assets/b04303ee-5f79-4f01-ab20-a6ddbeef2a54" width="600">
+
+### **Generated Solidity Contract**
+<img src="https://github.com/user-attachments/assets/9ae79cc0-1825-4a54-962d-177c428d0a30" width="600">
 
 # AI-Powered Solidity Contract Generator  
 
