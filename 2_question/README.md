@@ -24,7 +24,7 @@ Internship_Assignment/
 
 ## Installation and Run Locally  
 ```bash
-git clone https://github.com/your-username/Internship_Assignment.git  
+git clone https://github.com/manojkumar063/Internship_Assignment.git  
 cd Internship_Assignment  
 
 ## Install Dependencies
